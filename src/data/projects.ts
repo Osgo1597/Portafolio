@@ -147,7 +147,7 @@ Incluye autenticación, gestión de planes y analítica simple de progreso seman
       demo: "https://xochimilco.netlify.app/",
     },
     media: {
-      cover: "/images/geoportal-xochimilco-cover.svg",
+      cover: "/images/geoportal-xochimilco-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
     },
     sections: {
