@@ -42,7 +42,7 @@ export const projects: Project[] = [
       demo: "https://asistenciavial.netlify.app/",
     },
     media: {
-      cover: "/images/portal-proveedores-cover.svg",
+      cover: "/images/portal-proveedores-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
     },
     sections: {
@@ -95,7 +95,7 @@ El frontend se despliega en Netlify y consume una API en Render con persistencia
       demo: "https://oc-calisthenics.netlify.app/",
     },
     media: {
-      cover: "/images/app-gimnasio-cover.svg",
+      cover: "/images/oc-calisthenics-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
     },
     sections: {
