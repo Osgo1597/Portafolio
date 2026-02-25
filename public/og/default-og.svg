@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="OG Portafolio">
+  <rect width="1200" height="630" fill="#09090b" />
+  <rect x="80" y="70" width="1040" height="490" rx="26" fill="#18181b" />
+  <text x="130" y="240" fill="#f4f4f5" font-size="64" font-family="Arial, sans-serif" font-weight="800">
+    Portafolio Virtual
+  </text>
+  <text x="130" y="310" fill="#a1a1aa" font-size="34" font-family="Arial, sans-serif">
+    Case studies fullstack y static-webgis
+  </text>
+</svg>

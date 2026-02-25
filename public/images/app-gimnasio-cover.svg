@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="App Gimnasio">
+  <rect width="1200" height="630" fill="#0f172a" />
+  <rect x="70" y="80" width="1060" height="470" rx="24" fill="#1e293b" />
+  <text x="110" y="200" fill="#f8fafc" font-size="62" font-family="Arial, sans-serif" font-weight="700">
+    App del Gimnasio
+  </text>
+  <text x="110" y="270" fill="#cbd5e1" font-size="30" font-family="Arial, sans-serif">
+    Frontend Netlify - Backend Render - Data Supabase
+  </text>
+</svg>

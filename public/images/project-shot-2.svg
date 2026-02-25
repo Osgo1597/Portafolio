@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Captura 2">
+  <rect width="1200" height="800" fill="#0f172a" />
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#1e293b" />
+  <rect x="120" y="120" width="104" height="560" rx="12" fill="#334155" />
+  <rect x="260" y="130" width="360" height="28" rx="6" fill="#64748b" />
+  <rect x="260" y="185" width="820" height="18" rx="4" fill="#475569" />
+  <rect x="260" y="220" width="540" height="18" rx="4" fill="#475569" />
+  <rect x="260" y="280" width="390" height="320" rx="16" fill="#334155" />
+  <rect x="680" y="280" width="400" height="150" rx="16" fill="#334155" />
+  <rect x="680" y="450" width="400" height="150" rx="16" fill="#334155" />
+</svg>
