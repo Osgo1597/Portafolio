@@ -1,10 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Portal Proveedores">
-  <rect width="1200" height="630" fill="#111827" />
-  <rect x="70" y="80" width="1060" height="470" rx="24" fill="#1f2937" />
-  <text x="110" y="200" fill="#f9fafb" font-size="58" font-family="Arial, sans-serif" font-weight="700">
-    Portal de Proveedores (MVP)
-  </text>
-  <text x="110" y="270" fill="#d1d5db" font-size="30" font-family="Arial, sans-serif">
-    Frontend Netlify " Backend Render " Data Postgres
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Vista previa portal de proveedores">
+  <rect width="1200" height="630" fill="#0f172a" />
+  <rect x="45" y="50" width="1110" height="530" rx="20" fill="#111827" />
+  <rect x="80" y="88" width="1040" height="42" rx="8" fill="#1f2937" />
+  <rect x="98" y="100" width="180" height="18" rx="6" fill="#334155" />
+  <rect x="295" y="100" width="130" height="18" rx="6" fill="#334155" />
+  <rect x="80" y="160" width="260" height="380" rx="14" fill="#1e293b" />
+  <rect x="104" y="190" width="210" height="16" rx="6" fill="#475569" />
+  <rect x="104" y="222" width="210" height="12" rx="6" fill="#334155" />
+  <rect x="104" y="246" width="210" height="12" rx="6" fill="#334155" />
+  <rect x="104" y="320" width="95" height="28" rx="8" fill="#f59e0b" />
+  <rect x="216" y="320" width="95" height="28" rx="8" fill="#10b981" />
+  <rect x="370" y="160" width="750" height="250" rx="14" fill="#1e293b" />
+  <rect x="396" y="188" width="160" height="16" rx="6" fill="#64748b" />
+  <rect x="396" y="220" width="695" height="12" rx="6" fill="#334155" />
+  <rect x="396" y="244" width="520" height="12" rx="6" fill="#334155" />
+  <rect x="396" y="285" width="325" height="95" rx="10" fill="#334155" />
+  <rect x="736" y="285" width="355" height="95" rx="10" fill="#334155" />
+  <rect x="370" y="430" width="750" height="110" rx="14" fill="#1e293b" />
+  <rect x="396" y="458" width="695" height="12" rx="6" fill="#334155" />
+  <rect x="396" y="482" width="620" height="12" rx="6" fill="#334155" />
 </svg>
