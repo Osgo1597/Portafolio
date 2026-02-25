@@ -99,7 +99,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailProps) 
               target="_blank"
               rel="noreferrer noopener"
             >
-              {link.label} (placeholder)
+              {link.label}
             </Link>
           ))}
         </div>

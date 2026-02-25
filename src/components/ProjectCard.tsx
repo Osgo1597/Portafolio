@@ -34,12 +34,24 @@ export function ProjectCard({ project }: ProjectCardProps) {
             </span>
           ))}
         </div>
-        <Link
-          href={`/projects/${project.slug}`}
-          className="inline-flex rounded-lg bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-300"
-        >
-          Ver case study
-        </Link>
+        <div className="flex flex-wrap gap-2">
+          <Link
+            href={`/projects/${project.slug}`}
+            className="inline-flex rounded-lg bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-300"
+          >
+            Ver case study
+          </Link>
+          {project.links.demo ? (
+            <a
+              href={project.links.demo}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-flex rounded-lg border border-black/20 px-4 py-2 text-sm hover:bg-zinc-100 dark:border-white/20 dark:hover:bg-zinc-800"
+            >
+              Ver demo
+            </a>
+          ) : null}
+        </div>
       </div>
     </article>
   );

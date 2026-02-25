@@ -81,7 +81,7 @@ El frontend se despliega en Netlify y consume una API en Render con persistencia
     },
   },
   {
-    title: "App del Gimnasio",
+    title: "OC-CALISTHENICS",
     slug: "app-gimnasio",
     oneLiner:
       "Aplicación para gestión de rutinas, progreso y control de membresías con panel administrativo.",
