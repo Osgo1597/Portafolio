@@ -39,8 +39,7 @@ export const projects: Project[] = [
     hosting: { frontend: "Netlify", backend: "Render" },
     dataLayer: { type: "Postgres", notes: "Esquema transaccional para proveedores y evaluaciones." },
     links: {
-      demo: "https://example.com/portal-proveedores-mvp",
-      repo: "https://example.com/portal-proveedores-repo",
+      demo: "https://asistenciavial.netlify.app/",
     },
     media: {
       cover: "/images/portal-proveedores-cover.svg",
@@ -93,8 +92,7 @@ El frontend se despliega en Netlify y consume una API en Render con persistencia
     hosting: { frontend: "Netlify", backend: "Render" },
     dataLayer: { type: "Supabase", notes: "Auth + Postgres gestionado y políticas RLS." },
     links: {
-      demo: "https://example.com/app-gimnasio-demo",
-      repo: "https://example.com/app-gimnasio-repo",
+      demo: "https://oc-calisthenics.netlify.app/",
     },
     media: {
       cover: "/images/app-gimnasio-cover.svg",
@@ -146,8 +144,7 @@ Incluye autenticación, gestión de planes y analítica simple de progreso seman
     hosting: { frontend: "Netlify" },
     dataLayer: { type: "GeoJSON", notes: "Capas versionadas en repositorio y servidas estáticamente." },
     links: {
-      demo: "https://example.com/geoportal-xochimilco-demo",
-      repo: "https://example.com/geoportal-xochimilco-repo",
+      demo: "https://xochimilco.netlify.app/",
     },
     media: {
       cover: "/images/geoportal-xochimilco-cover.svg",
