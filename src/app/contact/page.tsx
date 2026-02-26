@@ -16,13 +16,14 @@ export default function ContactPage() {
 
       <form
         name="contact"
-        action="/__forms.html"
+        action="/contact/success"
         method="POST"
         data-netlify="true"
         netlify-honeypot="bot-field"
         className="space-y-4 rounded-xl border border-black/10 p-5 dark:border-white/10"
       >
         <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="subject" value="Nuevo contacto desde Portafolio Virtual" />
         <p className="hidden">
           <label htmlFor="bot-field">
             No llenar este campo si eres humano:

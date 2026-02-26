@@ -5,8 +5,6 @@ const navItems = [
   { href: "/projects", label: "Proyectos" },
   { href: "/about", label: "Sobre mí" },
   { href: "/contact", label: "Contacto" },
-  { href: "/report", label: "Reporte" },
-  { href: "/manual", label: "Manual" },
 ];
 
 export function Navbar() {
