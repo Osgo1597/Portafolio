@@ -181,4 +181,56 @@ El enfoque prioriza simplicidad de mantenimiento y costos bajos de operación.`,
       ],
     },
   },
+  {
+    title: "Geoportal Tlahuac",
+    slug: "geoportal-tlahuac",
+    oneLiner:
+      "Geoportal de movilidad escolar para analizar cercanía de paradas y rutas de transporte alrededor de escuelas.",
+    year: "2026",
+    status: "En producción",
+    architectureType: "static-webgis",
+    tags: ["GIS", "Movilidad", "Escolar", "GeoJSON", "Open Data"],
+    hosting: { frontend: "Netlify" },
+    dataLayer: {
+      type: "GeoJSON",
+      notes: "Capas estáticas de escuelas, rutas y paradas con análisis de cercanía en cliente.",
+    },
+    links: {
+      demo: "https://geo-tlahuac.netlify.app/",
+    },
+    media: {
+      cover: "/images/geoportal-tlahuac-real-cover.png",
+      gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
+    },
+    sections: {
+      problem: `La consulta de opciones de transporte escolar no estaba centralizada en una herramienta geográfica simple.
+
+Se requería identificar rápidamente paradas y líneas cercanas a cada plantel.`,
+      solution: `Se desarrolló un **geoportal estático** enfocado en movilidad escolar, con capas temáticas y análisis de cercanía.
+
+La app ejecuta la lógica en frontend para mantener costos bajos y despliegue ágil en Netlify.`,
+      features: [
+        "Panel lateral con filtros por escuela y parámetros de análisis.",
+        "Visualización de paradas y rutas de transporte sobre mapa base.",
+        "Listado ordenado de opciones cercanas con distancia estimada.",
+      ],
+      architectureNotes: [
+        "Frontend estático con procesamiento geoespacial en cliente.",
+        "Datasets GeoJSON versionados para trazabilidad de cambios.",
+        "Sin backend dedicado: operación sencilla y mantenimiento ligero.",
+      ],
+      challenges: [
+        "Unificar capas con distintos esquemas de atributos.",
+        "Mantener respuesta fluida al analizar muchas entidades.",
+      ],
+      results: [
+        "Mejor visibilidad territorial para planeación de movilidad escolar.",
+        "Reducción de tiempo en consultas manuales por plantel.",
+      ],
+      nextSteps: [
+        "Integrar más indicadores por colonia y rutas combinadas.",
+        "Agregar exportación de reportes por escuela analizada.",
+      ],
+    },
+  },
 ];
