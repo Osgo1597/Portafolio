@@ -133,6 +133,8 @@ export function ProjectPreviewModal({ project, demoUrl, isOpen, onClose }: Proje
               src={demoUrl}
               title={`Vista embebida de ${project.title}`}
               loading="lazy"
+              sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-downloads"
+              referrerPolicy="strict-origin-when-cross-origin"
               className="h-full w-full"
               onLoad={() => setIframeLoaded(true)}
               onError={() => setShowFallback(true)}
