@@ -12,6 +12,8 @@ interface Project {
   hosting: { frontend: "Netlify"; backend?: "Render" };
   dataLayer: { type: "Supabase" | "GeoJSON" | "Postgres" | "Otro"; notes?: string };
   links: { demo?: string; repo?: string; video?: string };
+  demoUrl?: string;
+  embedMode: "iframe" | "external";
   media: { cover: string; gallery: string[] };
   sections: {
     problem: string;
@@ -41,6 +43,8 @@ export const projects: Project[] = [
     links: {
       demo: "https://asistenciavial.netlify.app/",
     },
+    demoUrl: "https://asistenciavial.netlify.app/",
+    embedMode: "iframe",
     media: {
       cover: "/images/portal-proveedores-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
@@ -94,6 +98,8 @@ El frontend se despliega en Netlify y consume una API en Render con persistencia
     links: {
       demo: "https://oc-calisthenics.netlify.app/",
     },
+    demoUrl: "https://oc-calisthenics.netlify.app/",
+    embedMode: "iframe",
     media: {
       cover: "/images/oc-calisthenics-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
@@ -146,6 +152,8 @@ Incluye autenticación, gestión de planes y analítica simple de progreso seman
     links: {
       demo: "https://xochimilco.netlify.app/",
     },
+    demoUrl: "https://xochimilco.netlify.app/",
+    embedMode: "iframe",
     media: {
       cover: "/images/geoportal-xochimilco-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
@@ -198,6 +206,8 @@ El enfoque prioriza simplicidad de mantenimiento y costos bajos de operación.`,
     links: {
       demo: "https://geo-tlahuac.netlify.app/",
     },
+    demoUrl: "https://geo-tlahuac.netlify.app/",
+    embedMode: "iframe",
     media: {
       cover: "/images/geoportal-tlahuac-real-cover.png",
       gallery: ["/images/project-shot-1.svg", "/images/project-shot-2.svg"],
