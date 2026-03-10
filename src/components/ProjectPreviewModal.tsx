@@ -117,16 +117,25 @@ export function ProjectPreviewModal({ project, demoUrl, isOpen, onClose }: Proje
           {showFallback ? (
             <div className="flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
               <p className="max-w-xl text-sm text-zinc-200 sm:text-base">
-                Este proyecto no permite vista embebida. Ábrelo en una pestaña nueva.
+                Para ver la experiencia completa de este proyecto, visita el sitio en una pestaña nueva.
               </p>
-              <a
-                href={demoUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-zinc-900 hover:bg-zinc-200"
-              >
-                Abrir en pestaña nueva
-              </a>
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <a
+                  href={demoUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-zinc-900 hover:bg-zinc-200"
+                >
+                  Ir al sitio
+                </a>
+                <button
+                  type="button"
+                  onClick={onClose}
+                  className="rounded-lg border border-white/30 px-4 py-2 text-sm text-zinc-100 hover:bg-white/10"
+                >
+                  Cerrar vista previa
+                </button>
+              </div>
             </div>
           ) : demoUrl ? (
             <iframe
