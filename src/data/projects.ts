@@ -96,9 +96,9 @@ El frontend se despliega en Netlify y consume una API en Render con persistencia
     hosting: { frontend: "Netlify", backend: "Render" },
     dataLayer: { type: "Supabase", notes: "Auth + Postgres gestionado y políticas RLS." },
     links: {
-      demo: "https://oc-calisthenics.netlify.app/",
+      demo: "https://oc-club.netlify.app/",
     },
-    demoUrl: "https://oc-calisthenics.netlify.app/",
+    demoUrl: "https://oc-club.netlify.app/",
     embedMode: "iframe",
     media: {
       cover: "/images/oc-calisthenics-real-cover.png",
